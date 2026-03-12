@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: beige;
+    background-color: cyan;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,13 +16,29 @@ body{
 
     height: 100vh;
 }
+/*Cabeçalho*/
 .header{
     grid-area: header;
-    background-color: #333;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
+/*Menu*/
 .menu{
     grid-area: menu;
     background-color: #555;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    padding: 15px;
+    color: white;
+    cursor: pointer;
 }
 .main{
     grid-area: main;
@@ -31,13 +47,4 @@ body{
 .footer{
     grid-area: footer;
     background-color: #444;
-}
-
-nav ul{
-    list-style: none;
-    padding: 0;
-}
-nav li{
-    padding: 15px;
-    cursor: pointer;
 }
