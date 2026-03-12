@@ -36,3 +36,12 @@ h1{
     grid-area: footer;
     background-color: #444;
 }
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    padding: 15px;
+    cursor: pointer;
+}
