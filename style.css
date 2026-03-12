@@ -71,3 +71,12 @@ nav li::before{
         opacity: 1;
     }
 }
+
+@keyframes subir{
+    from{
+        transform: translateY(50px)
+    }
+    to{
+        transform: translateY(0);
+    }
+}
