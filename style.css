@@ -23,6 +23,7 @@ body{
     color: white;
     padding: 20px;
     text-align: center;
+    animation: aparecer 4s;
 }
 /*Menu*/
 .menu{
@@ -53,7 +54,7 @@ nav li::before{
     background-color: #ddd;
     padding: 20px;
 
-    animation: subir 1.5s;
+    animation: subir 4s;
 }
 .footer{
     grid-area: footer;
