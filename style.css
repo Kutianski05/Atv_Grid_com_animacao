@@ -40,6 +40,14 @@ nav li{
     color: white;
     cursor: pointer;
 }
+
+nav li:hover{
+    background-color: black
+}
+
+nav li::before{
+    content: ">>";
+}
 .main{
     grid-area: main;
     background-color: #888;
