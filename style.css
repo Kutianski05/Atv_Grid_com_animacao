@@ -50,9 +50,15 @@ nav li::before{
 }
 .main{
     grid-area: main;
-    background-color: #888;
+    background-color: #ddd;
+    padding: 20px;
+
+    animation: subir 1.5s;
 }
 .footer{
     grid-area: footer;
     background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
