@@ -62,3 +62,12 @@ nav li::before{
     text-align: center;
     padding: 15px;
 }
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    } 
+    to{
+        opacity: 1;
+    }
+}
